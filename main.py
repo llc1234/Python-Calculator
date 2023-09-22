@@ -4,7 +4,6 @@ import tkinter.ttk
 class calculator:
     def __init__(self):
         self.root = tkinter.Tk()
-
         self.display_text = tkinter.StringVar()
 
     def add(self, value):
